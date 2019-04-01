@@ -1,0 +1,21 @@
+{#version:'1.0'}
+{
+	#name : #PharoCounter,
+	#description : 'A simple counter project. You can increment it, decrement it and get the value from the counter.',
+	#units : [
+		{
+			#name : #Counter-Core,
+			#description : 'Core package with the counter implementation.'
+		},
+		{
+			#name : #Counter-Tests,
+			#description : 'Test package of the counter implementation.'
+		}
+	],
+	#version : '0.1.0',
+	#repositoryUrl : {
+		#type : #git,
+		#repositoryUrl : 'git://git@github.com/pharo-pkg/pharo-counter.git',
+		#version : 'master'
+	}
+}
